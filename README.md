@@ -125,32 +125,6 @@ Instruction tuning substantially improves the performance of all evaluated model
 
 Gemma-3 1B achieves the best Exact Match, BLEU, and GLEU, while Qwen2.5-1.5B achieves the highest F0.5 score.
 
-### Key Findings
-
-* Instruction tuning substantially outperforms zero-shot prompting.
-* Fine-tuned models perform more localized grammatical corrections.
-* Fine-tuning reduces unnecessary rewriting and cross-linguistic interference.
-* ByT5 demonstrates that byte-level modeling can be effective for Assamese surface-form and spelling corrections.
-* Explicit grammatical error labels provide useful additional supervision.
-
-## Limitations
-
-The current dataset is synthetically generated, so it may not capture the full diversity and unpredictability of naturally occurring Assamese learner errors.
-
-The evaluation also relies primarily on automatic metrics. Since multiple corrected forms may be linguistically acceptable, automatic metrics may not always fully capture grammatical correctness, fluency, and semantic preservation.
-
-Large-scale human evaluation is therefore an important direction for future work.
-
-## Future Work
-
-Future extensions include:
-
-* Incorporating larger collections of real learner-written Assamese text
-* Creating human-annotated incorrect–correct sentence pairs
-* Conducting large-scale human evaluation
-* Exploring larger multilingual and Indic language models
-* Developing finer-grained grammatical error categories
-* Incorporating additional Assamese linguistic resources
 
 ## Project Structure
 
