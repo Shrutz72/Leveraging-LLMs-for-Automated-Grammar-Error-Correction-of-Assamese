@@ -113,18 +113,6 @@ The models are evaluated using:
 
 Both **zero-shot** and **instruction-tuned** models are evaluated on the same held-out test set.
 
-## Results
-
-Instruction tuning substantially improves the performance of all evaluated models.
-
-| Model        | Exact Match |   BLEU |   GLEU |       F0.5 |
-| ------------ | ----------: | -----: | -----: | ---------: |
-| Gemma-3 1B   |      70.38% | 87.45% | 88.26% |     91.75% |
-| Qwen2.5-1.5B |      57.13% | 84.02% | 85.29% | **92.28%** |
-| ByT5-small   |      58.03% | 82.83% | 84.26% |     91.77% |
-
-Gemma-3 1B achieves the best Exact Match, BLEU, and GLEU, while Qwen2.5-1.5B achieves the highest F0.5 score.
-
 
 ## Project Structure
 
